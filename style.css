@@ -122,7 +122,8 @@ a {
 .section {
   padding: 60px 40px;
   max-width: 900px;
-  margin: 0 auto; /* centers the section on the page */
+  margin: 20px auto; /* centers each section and separates its border */
+  border: 3px solid #f9dfe7;
 }
 
 .section h2 {
@@ -133,7 +134,7 @@ a {
 }
 
 #bio p {
-  margin-bottom: 15px;
+  margin-bottom: 7.5px;
 }
 
 #bio p:last-child {
