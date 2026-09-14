@@ -2,10 +2,106 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+
+  <!-- This links our CSS file to this HTML file -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+
+  <!-- ============ NAVIGATION BAR ============ -->
+  <nav class="navbar">
+    <div class="logo">Your Name</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#bio">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============ HERO SECTION ============ -->
+  <!-- This is the big banner at the top of the page -->
+  <section id="hero" class="hero">
+    <!-- Replace "headshot.jpg" with the filename of your own photo -->
+    <img src="headshot.jpg" alt="Photo of Your Name" class="headshot">
+    <h1>Hi, I'm Your Name</h1>
+    <p>A web development student building projects and learning to code.</p>
+    <a href="#projects" class="btn">View My Projects</a>
+  </section>
+
+  <!-- ============ BIO / ABOUT SECTION ============ -->
+  <section id="bio" class="section">
+    <h2>About Me</h2>
+    <p>
+      Write a couple sentences here about who you are, what you're studying,
+      and what got you interested in web development. Keep it short and
+      personable — this is where visitors get to know you a little.
+    </p>
+  </section>
+
+  <!-- ============ SKILLS SECTION ============ -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git &amp; GitHub</li>
+      <!-- Add or remove skills as you learn more -->
+    </ul>
+  </section>
+
+  <!-- ============ PROJECTS SECTION ============ -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+
+      <!-- Project card 1 -->
+      <div class="project-card">
+        <h3>Project Name</h3>
+        <p>A short description of what this project does and what you learned building it.</p>
+        <a href="#" class="btn-small">View Project</a>
+      </div>
+
+      <!-- Project card 2 -->
+      <div class="project-card">
+        <h3>Project Name</h3>
+        <p>A short description of what this project does and what you learned building it.</p>
+        <a href="#" class="btn-small">View Project</a>
+      </div>
+
+      <!-- Project card 3 -->
+      <div class="project-card">
+        <h3>Project Name</h3>
+        <p>A short description of what this project does and what you learned building it.</p>
+        <a href="#" class="btn-small">View Project</a>
+      </div>
+
+      <!-- Copy and paste a project-card div above to add more projects -->
+
+    </div>
+  </section>
+
+  <!-- ============ CONTACT SECTION ============ -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Want to get in touch? Reach out through any of the links below.</p>
+    <ul class="contact-list">
+      <li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
+      <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+      <li>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></li>
+    </ul>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <p>&copy; 2026 Your Name. Built with HTML &amp; CSS.</p>
+  </footer>
+
 </body>
 </html>
+
