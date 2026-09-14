@@ -35,7 +35,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: #f7dfe7; /* soft blush pink */
+  background-color: #d88aa2; /* soft blush pink */
 }
 
 .logo {
@@ -65,8 +65,20 @@ a {
 .hero {
   background: linear-gradient(135deg, #fce7f3 0%, #f9dfe7 40%, #fdf2f8 100%);
   color: #5a3a3d;
-  text-align: center;
-  padding: 100px 20px;
+  padding: 55px 20px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  text-align: left;
 }
 
 .hero h1 {
@@ -85,7 +97,7 @@ a {
   max-width: 50%;
   height: auto;
   border-radius: 50%;
-  margin: 0 auto 20px auto;
+  margin: 0;
 }
 
 /* Big call-to-action button in the hero */
@@ -215,5 +227,14 @@ footer {
 
   .hero h1 {
     font-size: 2rem;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .hero-text {
+    text-align: center;
   }
 }
